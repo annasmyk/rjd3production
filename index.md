@@ -83,6 +83,13 @@ de mettre en place une telle configuration dans R est expliquée
 Pour obtenir la version stable actuelle (à partir de la dernière
 version) :
 
+Depuis le CRAN :
+
+``` r
+
+install.packages("rjd3production")
+```
+
 - Depuis GitHub :
 
 ``` r
@@ -109,6 +116,8 @@ Vous pouvez installer la version de développement de
 # install.packages("remotes")
 remotes::install_github("InseeFr/rjd3production")
 ```
+
+## 🇬🇧 README in english
 
 ### Overview
 
@@ -171,6 +180,13 @@ flowchart LR
 ### Installation
 
 To get the current stable version (from the latest release):
+
+From CRAN:
+
+``` r
+
+install.packages("rjd3production")
+```
 
 - From GitHub:
 

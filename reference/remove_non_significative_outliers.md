@@ -84,7 +84,10 @@ save_workspace(jws, file = path_ws)
 # Remove non-significant outliers (p > 0.3) from a workspace
 remove_non_significative_outliers(path_ws, threshold = 0.3, domain = TRUE)
 #> 
-#> 🏷 WS  ws256d22e26a08 
-#> Error in .jcheck(): java.lang.NullPointerException: Cannot invoke "jdplus.sa.base.api.SaEstimation.getQuality()" because "this.estimation" is null
+#> 🏷 WS  ws246175063c07 
+#> 📌 SAI n° 1 
+#> ❌ Suppression de l'outlier : LS (1990-01-01) 
+#> L'outlier est dans la domainSpec.
+#> 💾 Saving WS file
 # }
 ```
